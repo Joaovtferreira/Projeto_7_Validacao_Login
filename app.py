@@ -2,12 +2,14 @@ from flask import Flask, render_template, request
 from werkzeug.security import generate_password_hash, check_password_hash
 import json
 
-app = Flask(__name__)
+
+app  = Flask(__name__)
 
 with open('usuarios.json', 'r', encoding='utf-8') as f:
     usuarios = json.load(f)
 
-@app.route('/', methods=['POST', 'GET']) # Define os métodos POST e GET para a rota principal
+
+@app.route('/', methods=['POST', 'GET'])
 def index():
     if request.method == 'POST':
         nome = request.form['username']
@@ -16,11 +18,13 @@ def index():
         for usuario in usuarios:
             if usuario['nome'] == nome:
                 if check_password_hash(usuario['senha'], senha):
-                    return 'Acesso Permitido'
+                    return 'acesso permitido'
                 else:
-                    return 'Acesso negado'
-           
+                    return f'acesso negado | Senha: {senha}'
+
     return render_template('login.html')
+
+
 
 @app.route('/cadastrar', methods=['POST', 'GET'])
 def cadastrar():
@@ -35,13 +39,18 @@ def cadastrar():
         usuario['senha'] = senha
 
         usuarios.append(usuario)
+
         with open('usuarios.json', 'w', encoding='utf-8') as f:
             json.dump(usuarios, f, indent=4, ensure_ascii=False)
 
+
+        # return f'usuario: {nome} | gmail: {email} | senha: {senha}'
         return render_template('login.html')
 
     return render_template('cadastrar.html')
 
 
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+#fazer atividade
+
+if __name__  == '__main__':
+    app.run(debug=True)

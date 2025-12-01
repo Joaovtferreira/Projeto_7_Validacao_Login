@@ -1,27 +1,12 @@
 [
     {
-        "nome": "dadassdsad",
-        "email": "tfdugjfdjtgf@hjgfhjfgjk",
-        "senha": "scrypt:32768:8:1$HHMgHNBuQUSiCNZ3$8621119bef575ddbcdbc959e3757cfb6d98d7bd41e16c16592d7d2c5b5abb95ab325640898d02c52e681f6ca8ce218c17a7e30254b4d5b64d0935ed94c016dcd"
-    },
-    {
-        "nome": "bryan244éosd",
-        "email": "teste@gmail.com",
-        "senha": "scrypt:32768:8:1$06tG6pRrh4oZcKAO$7e6635c823c391d0159d42bd037bb3bd143c9cadab1c9c37fb30c74660d72ba57ac2215533a942be1a63eb6fec28497c9308496c6d9a8831495f983bd9aa18ea"
-    },
-    {
-        "nome": "gabriel wendel",
-        "email": "gabrielwendel@gmail.com",
-        "senha": "scrypt:32768:8:1$6ZvAK9oSZEnlPVYn$e8f3e10f634757841bf466ca7c8a16c9aa6e6b49b8bded2d09d7e73583be20def7917c4a8cf86b98f8091512b09ca313ad75247bfff94d6b3746aa1c0ea99b5e"
-    },
-    {
-        "nome": "jubiscreison",
-        "email": "bumbumgulosu@gmail.com",
-        "senha": "scrypt:32768:8:1$oUYjCI3LNW25eawS$43083f1a8780bc54915f2a7bca8783f833028ec657aeb8644a3fc9efc45df558ce365ab4b52f1859e1d3022c6fe9a3eaacf9d5c3d13781aec051da6a0c81869f"
+        "nome": "johnny",
+        "email": "email@email.com",
+        "senha": "scrypt:32768:8:1$TtiNXBHt6wM7DzOq$126b14d72ada3c939a5f0212c9e740273d0a59ca6b7df120c49ceb1b2aeffae4835f977f544a51a5898106a45869ae763dad347c684371344fc9382bc9d31ee6"
     },
     {
         "nome": "joao",
         "email": "tfdugjfdjtgf@hjgfhjfgjk",
-        "senha": "scrypt:32768:8:1$Ui75RPjKU6OVWw5j$a3919e851c983dbef83bce5cafe241ceadb7fe1efd91f073050eb7c9ca0cf6d12ae174f1c6e90375c055b3d74e375f454d6c20c83e66f487874fb279a4cf7053"
+        "senha": "scrypt:32768:8:1$3ksBgTdEJFXf1e6t$a37a05ad35747e62544fcb4651d02f2f36bdb5d5f42954ea5aa47509c96ab6e356a72c1d702c0a2e72d0228f2826ab1d2eaf0b164c32b89a77b7102c70703b15"
     }
 ]
